@@ -13,12 +13,19 @@ public class BaiTapRenLuyen4_Bai1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		do
+		try
 		{
-			menu();
-			
+			do
+			{
+				menu();
+				
+			}
+			while(true);
 		}
-		while(true);
+		catch(Exception ex)
+		{
+			throw ex;
+		}
 	}
 	private static void menu()
 	{
